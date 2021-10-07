@@ -17,10 +17,10 @@ INTERVAL=30
 
 ```bash
 # Docker Hub
-docker run --env-file=.env sparanoid/docker-vigil-reporter:latest
+docker run --env-file=.env sparanoid/vigil-reporter:latest
 
 # GitHub Container Registry
-docker run --env-file=.env ghcr.io/sparanoid/docker-vigil-reporter:latest
+docker run --env-file=.env ghcr.io/sparanoid/vigil-reporter:latest
 ```
 
 ## Development

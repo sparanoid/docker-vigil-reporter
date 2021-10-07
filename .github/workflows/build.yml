@@ -47,8 +47,8 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            sparanoid/docker-vigil-reporter
-            ghcr.io/sparanoid/docker-vigil-reporter
+            sparanoid/vigil-reporter
+            ghcr.io/sparanoid/vigil-reporter
           tags: |
             type=schedule
             type=ref,event=branch
