@@ -50,6 +50,7 @@ jobs:
             sparanoid/vigil-reporter
             ghcr.io/sparanoid/vigil-reporter
           tags: |
+            type=edge
             type=schedule
             type=ref,event=branch
             type=ref,event=pr
