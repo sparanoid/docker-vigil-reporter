@@ -1,6 +1,6 @@
 {
   "name": "docker-vigil-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vigil Reporter for Node in Docker",
   "main": "index.js",
   "repository": "https://github.com/sparanoid/docker-vigil-reporter",
