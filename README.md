@@ -2,6 +2,9 @@
 
 [Vigil Reporter for Node](https://github.com/valeriansaliou/node-vigil-reporter) in Docker
 
+- [Docker Hub](https://hub.docker.com/r/sparanoid/vigil-reporter)
+- [ghcr.io](https://github.com/users/sparanoid/packages/container/package/vigil-reporter)
+
 ## Usage
 
 Prepare your `.env` file (or you can pass environment variables directly from commands):
@@ -29,6 +32,10 @@ docker run --env-file=.env ghcr.io/sparanoid/vigil-reporter:latest
 yarn install
 yarn start
 ```
+
+## Known Issues
+
+Metrics may be incorrect since probe is running inside the container.
 
 ## License
 
